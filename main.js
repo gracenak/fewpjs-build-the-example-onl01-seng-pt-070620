@@ -2,6 +2,16 @@
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
+const modal = document.querySelector('#modal')
+modal.className = "hidden";
+const heart = document.querySelector('span.like-glyph')
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  // modal.hidden = "";
+})
+
+
 // Your JavaScript code goes here!
 
 
